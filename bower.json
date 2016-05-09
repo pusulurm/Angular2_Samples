@@ -1,0 +1,21 @@
+{
+  "name": "ticket-Management",
+  "description": "Package for the Acme Product Management sample application",
+  "main": "",
+  "authors": [
+    "Deborah Kurata"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

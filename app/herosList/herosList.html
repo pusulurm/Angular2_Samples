@@ -1,0 +1,27 @@
+<div class='panel panel-primary'>
+    <div class='panel-heading'>
+        Heros details
+    </div>
+
+    <!-- Filter the Products   -->
+    <div class='panel-body'>
+        <div class="table-responsive">
+            <table style="padding">
+                <thead>
+                    <tr>
+                        <td> Id</td>
+                        <td> Name</td>
+                        <td> Industry</td>
+                        <td> Action </td>
+                    </tr>
+                </thead>
+                <tr *ngFor="#hero of heros">
+                    <td> {{hero.id}}</td>
+                    <td> {{hero.name}}</td>
+                    <td> {{hero.industry}}</td>
+                    <td> <a>Edit</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
